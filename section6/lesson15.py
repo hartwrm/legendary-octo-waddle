@@ -15,10 +15,11 @@ print(words)
 words.remove('sup')
 print(words)
 
-# sort - order a list - 
+# sort - order a list - can not sort a list with integers + strings - uses ASCII order 
 randomNums = [2,4,3,5,66,2,98,343,2,-54,-5,.5]
 randomNums.sort()
 print(randomNums)
 
 randomNums.sort(reverse=True)
 print(randomNums)
+

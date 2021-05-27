@@ -3,7 +3,7 @@
 name = 'zophie a cat'
 print(name[7])
 
-# can not add/modify the string - need to use slices
+# can not add/modify the string - need to use slices - strings can not be modified in place, lists can be.
 
 newName = name[0:7] + ' the ' + name[8:12]
 print(newName)

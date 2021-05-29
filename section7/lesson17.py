@@ -22,6 +22,7 @@ for v in myDog.values():
 for k, v in myDog.items():
     print(k, v)
 
+# pretty print
 import pprint
 message = "it was  bright cold day in april, and the clocks were striking thirteen."
 count = {}

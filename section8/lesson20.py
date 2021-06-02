@@ -23,4 +23,6 @@ print(spam.upper())
 
 # print('Hello Wolrd'.startswith('H'))
 
-print(','.join(['cats', 'rats', 'bats']))
+# print(','.join(['cats', 'rats', 'bats']))
+
+# pyperclip.copy("hello world!!!!!")

@@ -34,8 +34,10 @@ serve = '<To serve humans> for dinner.>'
 nonGreedy = re.compile(r'<.*?>')
 print(nonGreedy.findall(serve))
 
+# can pass re.DOTALL as second argument to match new lines with .
 greedy = re.compile(r'<.*>')
 print(greedy.findall(serve))
 
-vowelRegex = re.compile(r'[aeiou]')
+#search all ignore case
+vowelRegex = re.compile(r'[aeiou]', re.I)
 print(vowelRegex.findall('Al why does your book talk about Robocop so much'))

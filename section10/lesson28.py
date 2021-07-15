@@ -22,3 +22,4 @@ phoneRegex = re.compile(r'''
 -       #2nd dash
 \d\d\d\d  #last 4 digits
 \sx\d{2,4}  #extension, ie 123''', re.VERBOSE | re.DOTALL | re.IGNORECASE) #this is really just for the complie function - old fashioned but works
+

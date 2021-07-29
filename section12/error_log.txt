@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/achiv/Documents/devStuff/pythonCourses/AutomateTheBoringStuff/legendary-octo-waddle/section12/lesson35.py", line 22, in <module>
+    raise Exception('this is an error message')
+Exception: this is an error message
+Traceback (most recent call last):
+  File "/Users/achiv/Documents/devStuff/pythonCourses/AutomateTheBoringStuff/legendary-octo-waddle/section12/lesson35.py", line 22, in <module>
+    raise Exception('this is an error message')
+Exception: this is an error message

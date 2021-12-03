@@ -1,6 +1,6 @@
 import openpyxl
 import os
-os.chdir('/Users/achiv/Downloads')
+os.chdir('/your/path/here')
 from openpyxl import load_workbook
 
 workbook = load_workbook('example_excel.xlsx')

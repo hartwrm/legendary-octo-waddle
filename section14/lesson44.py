@@ -1,6 +1,6 @@
 import PyPDF2
 import os
-os.chdir('/Users/achiv/Downloads')
+os.chdir('/some/page/path')
 
 ####open the pdf file, by default is in read mode, need read binary mode 'rb'
 ##pdfFile = open('meetingminutes1.pdf', 'rb')
